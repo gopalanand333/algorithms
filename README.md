@@ -20,14 +20,14 @@ An algorithm is also used to manipulate data in various ways, such as inserting 
 
 ### Example: greatest common denominator )GCD of two integers
 eg: GCD of 20 and 8 is 8 and 1
-``
+`
 def gcd(a,b):
     while (b !=0):
         t = b
         b = t % b
     return a
 print(gcd(10,20))
-``
+`
 
 # Algorithm performance
 - Measure how an algorithm responds to dataset size
